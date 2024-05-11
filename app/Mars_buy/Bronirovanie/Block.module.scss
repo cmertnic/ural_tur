@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Block {
+    font-family: "Raleway", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 1446px;
+    display: flex;
+    margin-bottom: 145px;
+    margin-top: 119px;
+
+    .Block_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1289px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        flex-wrap: wrap;
+
+        .select_way {
+            font-family: "Raleway", sans-serif;
+            border-radius: 30px;
+            width: 247px;
+            height: 67px;
+            background-color: #28AFB8;
+            font-weight: 700;
+            font-size: 20px;
+            color: #F4F4F4;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        .email_div {
+            width: 1287px;
+            height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h2 {
+                width: auto;
+                font-family: "Open Sans", sans-serif;
+            }
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 38px;
+            color: #181818;
+            width: 100%;
+            height: 45px;
+        }
+
+        textarea {
+            border-radius: 20px;
+            width: 1280px;
+            height: 298px;
+            box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.25);
+            background: #F4F4F4;
+            font-weight: 700;
+            font-size: 28px;
+            color: #181818;
+            padding-left: 10px;
+            resize: none;
+            border: 0;
+        }
+
+        input {
+            box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.25);
+            background: #F4F4F4;
+            border-radius: 20px;
+            width: 611px;
+            height: 82px;
+            border: 0;
+        }
+
+        .Region_and_service {
+            margin-bottom: 62px;
+            margin-top: 52px;
+            border-radius: 20px;
+            width: 1280px;
+            height: 509px;
+            box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.25);
+            background: #F4F4F4;
+            display: flex;
+            font-family: "Open Sans", sans-serif;
+
+            .Region_and_service_row {
+                width: 1174px;
+                height: 401px;
+                display: flex;
+                justify-content: space-between;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 54px;
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 28px;
+                    color: #181818;
+                    width: auto;
+                }
+
+                .blue {
+                    font-weight: 700;
+                    font-size: 28px;
+                    color: #28afb8;
+                }
+
+                .Region {
+                    width: 667px;
+                    height: 401px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .Images {
+                        width: 662px;
+                        height: 136px;
+                        width: 662x;
+                        height: 136px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .Cost_and_people {
+                        display: flex;
+                        width: 652px;
+                        height: 38px;
+                        justify-content: space-between;
+                    }
+                }
+
+                .Service {
+                    width: 424px;
+                    height: 401px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    h2 {
+                        font-weight: 700;
+                        font-size: 32px;
+                        color: #181818;
+                    }
+
+                    .Buttons {
+                        width: 388px;
+                        height: 325px;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        button {
+                            cursor: pointer;
+                            font-weight: 700;
+                            font-size: 20px;
+                            color: #181818;
+                            box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.25);
+                            background: #F4F4F4;
+                            border-radius: 30px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            width: max-content;
+                            height: 71px;
+                            border: 0;
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+
+}

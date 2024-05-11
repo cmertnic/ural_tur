@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Block {
+    font-family: "Raleway", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 1469px;
+    display: flex;
+    margin-bottom: 59px;
+    margin-top: 135px;
+
+    .Block_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1047px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        flex-wrap: wrap;
+
+        h2 {
+            font-weight: 700;
+            font-size: 38px;
+            color: #181818;
+            margin-bottom: 60px;
+        }
+
+        .cards {
+            width: 1047px;
+            height: 1218px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 228px;
+        }
+
+        .select_way {
+            font-family: "Raleway", sans-serif;
+            border-radius: 30px;
+            width: 247px;
+            height: 67px;
+            background-color: #28AFB8;
+            font-weight: 700;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+            margin-left: auto;
+        }
+    }
+
+
+
+
+}

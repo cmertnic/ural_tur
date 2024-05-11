@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Block {
+    font-family: "Raleway", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 746px;
+    display: flex;
+    margin-bottom: 180px;
+
+
+    .Block_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+
+        h1 {
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 110%;
+            text-transform: capitalize;
+            position: absolute;
+            color: #fff;
+            width: 1160px;
+            height: 132px;
+            margin-left: 10%;
+            margin-right: auto;
+            z-index: 1;
+        }
+    }
+
+    .image_container {
+        width: 100%;
+        display: flex;
+        margin-bottom: auto;
+
+        div {
+            position: unset !important;
+        }
+
+        .ural_canion_img {
+            position: absolute;
+            z-index: 0;
+            object-fit: contain;
+            position: relative !important;
+            height: unset !important;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
