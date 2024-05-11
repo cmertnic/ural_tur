@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Main {
+
+    p {
+        font-family: "Epilogue", sans-serif;
+        color: #fff;
+    }
+
+
+
+    .Swiper {
+        width: 920px;
+        height: 459px;
+        border-radius: 20px;
+        box-shadow: 0 4px 30px 1px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+
+        .swipper_buttons {
+            position: absolute;
+            z-index: 10;
+            width: 100%;
+        }
+
+        button {
+            width: 40px;
+            height: 40px;
+            border: 0px solid rgba(255, 255, 255, 0.5);
+            border-radius: 8px;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            
+
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        .SwiperSlide {
+            width: 920px;
+            height: 459px;
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background: #f4f4f4;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .SwiperSlide_row {
+                width: 744px;
+                height: 319px;
+                border-radius: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                background: #f4f4f4;
+                display: flex;
+                flex-wrap: wrap;
+
+                .coment_and_profile {
+                    width: 744px;
+                    height: 247px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: auto;
+
+                    p {
+                        width: 455px;
+                        height: 246px;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #181818;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    h3 {
+                        width: 269px;
+                        height: auto;
+                        font-weight: 700;
+                        font-size: 28px;
+                        text-align: center;
+                        color: #28afb8;
+                        border-bottom: 1px solid #28AFB8;
+                    }
+                }
+
+
+            }
+
+            .profile {
+                width: 269px;
+                height: 247px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 38px;
+                color: #181818;
+                margin-left: auto;
+                margin-right: auto;
+                height: 51px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+
+    }
+
+    .swipper_bootom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .swipper_buttons {
+        display: flex;
+        width: 92px;
+        justify-content: space-between;
+    }
+
+}
